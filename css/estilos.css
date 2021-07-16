@@ -1,0 +1,22 @@
+.menu {
+  background-color: #f3e1aa; }
+  .menu .titulo-color {
+    color: black; }
+
+.titulo-servicios {
+  text-align: center; }
+
+/*mixin*/
+.parrafo_1 {
+  font-size: 20px;
+  font-weight: 700; }
+
+/*extend*/
+.titulo-servicios {
+  text-align: center;
+  color: red; }
+
+/*titulo de nuestros servicios - index*/
+.titulo-servicios {
+  font-weight: bold;
+  font-size: 50px; }

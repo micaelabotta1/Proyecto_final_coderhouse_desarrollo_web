@@ -1,0 +1,43 @@
+$color-menu-fondo:#f3e1aa;
+$color-titulo-menu:black;
+$texto-centrado:center;
+
+.menu{
+    background-color:$color-menu-fondo;
+
+    .titulo-color{
+        color:$color-titulo-menu;
+    }
+}
+.titulo-servicios{
+    text-align:$texto-centrado;
+}
+
+/*mixin*/
+@mixin fontStyle($fontsize,$fontWeight){
+font-size: $fontsize;
+font-weight: $fontWeight;
+
+}
+.parrafo_1{
+@include fontStyle(20px, 700);
+}
+
+
+/*extend*/
+%text{
+    text-align: center;
+    color:red;
+}
+
+
+/*titulo de nuestros servicios - index*/
+.titulo-servicios{
+    @extend %text;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+
+
