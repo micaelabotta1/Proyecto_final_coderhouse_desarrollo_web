@@ -1,43 +1,93 @@
+/*color de fondo del menu*/
 $color-menu-fondo:#f3e1aa;
+/*color de letra del titulo del menu*/
 $color-titulo-menu:black;
+/*textos centrados de la pagina*/
 $texto-centrado:center;
+/*tipo de fuente para titulos*/
+$fuentedetitulos:'Roboto', sans-serif;
+/*tipo de fuente para parrafos*/
+$fuentedeparrafos:'Roboto', sans-serif;
 
+
+
+/*Home*/
+/*menu*/
 .menu{
     background-color:$color-menu-fondo;
-
+/*titulo del menu*/
     .titulo-color{
         color:$color-titulo-menu;
     }
 }
+/*titulo de nuestros servicios*/
 .titulo-servicios{
     text-align:$texto-centrado;
 }
-
-/*mixin*/
-@mixin fontStyle($fontsize,$fontWeight){
-font-size: $fontsize;
-font-weight: $fontWeight;
-
+/*primer parrafo debajo del slider*/
+p.parrafo_1{
+    text-align:$texto-centrado;
+    font-weight: 800;
+    margin-top:4%;
+    font-family:$fuentedeparrafos;
 }
-.parrafo_1{
-@include fontStyle(20px, 700);
+/*segundo parrafo debajo del slider*/
+p.parrafo_2{
+    text-align:$texto-centrado;
+    margin-top:4%;
+    font-family:$fuentedeparrafos;
 }
-
-
-/*extend*/
-%text{
-    text-align: center;
-    color:red;
+/*titulo de nuestros servicios*/
+h1.titulo-servicios {
+    margin-top: 4%;
+    font-family:$fuentedetitulos;
+    /*parrafo de nuestros servicios*/
+p.parrafo-servicios{
+    margin-top:4%; 
+    font-family:$fuentedeparrafos;
 }
-
-
-/*titulo de nuestros servicios - index*/
-.titulo-servicios{
-    @extend %text;
-    font-weight: bold;
-    font-size: 50px;
-
 }
 
+/*titulo card - imagenes - index*/
+.titulo-card{
+    font-family:$fuentedetitulos ;
+}
+.card-parrafo{
+    font-family: $fuentedeparrafos;
+}
 
 
+/*Pagina quienes somos*/
+.titulo-quienes-somos{
+    font-family:$fuentedetitulos ;
+    font-weight: 800;
+    /*parrafo de quienes somos*/
+.parrafo-quienes-somos{
+    font-family: $fuentedeparrafos;
+}
+}
+
+/*titulo de mision*/
+.titulo-mision{
+    font-family:$fuentedetitulos ;
+    font-weight: 600;
+    /*subtitulos de mision*/
+    .titulo-mision{
+        font-family:$fuentedetitulos
+    }
+    /*parrafo de mision*/
+    .parrafo-mision{
+        font-family:$fuentedeparrafos; 
+    }
+}
+/*cierre del home*/
+
+/*pagina de servicios*/
+.icono{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 0 20px 0;
+    align-items: center;
+}
