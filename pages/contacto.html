@@ -36,43 +36,18 @@
 <!--CIERRE DE NAVBAR-->
 
 <!--FORMULARIO DE CONTACTO-->
-<form action="" method="get" class="formulario">
-  <label for="nombre_apellido" class="nombre_apellido">NOMBRE Y APELLIDO</label>
-  <input type="text" name="nombre y apellido" id="nombre_apellido" placeholder="Ingrese su nombre y apellido">
-  <br><br>
-  <label for="nombre_apellido" class="nombre_apellido">E MAIL</label>
-  <input type="email" name="email" id="email" placeholder="Ingrese su email">
-  <br><br>
-  <label for="Telefono" class="nombre_apellido">TELEFONO</label>
-  <input type="text" name="telefono" id="telefono" placeholder="Ingrese su numero">
-  <br><br>
-  <!--selector de opciones-->
-  <select name="profesion" id="profesion">
-    <option value="c">Contador</option>
-    <option value="a">Abogado</option>
-    <option value="c">Criminalista</option>
-    <option value="p">Profesor</option>
-  </select>
-  <br><br>
-  <!--Comentarios-->
-  <fieldset>
-    <legend class="comentario">Dejanos un mensaje</legend>
-    <textarea name="comentario" id="comentario" cols="150" rows="20"></textarea>
-  </fieldset>
-  <!--cierre de comentarios-->
-  <!--selector de opcion-->
-  <br>
-  <label for="nwslatter" class="comentario">¿Queres conocer mas acerca del estudio?</label>
-  si<input type="radio" name="newslatter" id="newslatter"> No<input type="radio" name="newslatter" id="newslatter">
-  <br><br>
-  <!--cierre de selector de opcion-->
-  <input type="submit" value="ENVIAR">
-  <!--boton de enviar-->
-  <input type="reset" value="BORRAR"><!--boton de resetear informacion introducida-->
-  <br>
-  <br>
-  <button class="boton">CONSULTAR</button>
-</form>
+
+<div class="container -sm -md mt-3">
+  <h2 class="text-center">Formulario de contacto</h2>
+  <form action="#" class="form-contact" method="post" tabindex="1">
+    <input type="text" class="form-contact-input" name="nome" placeholder="Ingrese tu nombre" required />
+    <input type="email" class="form-contact-input" name="email" placeholder="Ingrese tu Email" required />
+    <input type="tel" class="form-contact-input" name="tel" placeholder="número de telefono" />
+    <textarea class="form-contact-textarea" name="conteudo" placeholder="Ingrese su consulta" required></textarea>
+    <button type="submit" class="form-contact-button">Enviar</button>
+  </form>
+</div>
+
 
 <!--CIERRE DE FORMULARIO DE CONTACTO-->
 
