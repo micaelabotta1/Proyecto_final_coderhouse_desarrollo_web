@@ -3,6 +3,7 @@
 /*textos centrados de la pagina*/
 /*tipo de fuente para titulos*/
 /*tipo de fuente para parrafos*/
+/*colordecajas - pagina nosotros*/
 /*Home*/
 /*menu*/
 .menu {
@@ -52,18 +53,27 @@ h1.titulo-servicios {
   .titulo-quienes-somos .parrafo-quienes-somos {
     font-family: "Roboto", sans-serif; }
 
-/*titulo de mision*/
+/*titulo de nuestros principios y valores - nuestra mision*/
 .titulo-mision {
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  /*subtitulos de mision*/
-  /*parrafo de mision*/ }
-  .titulo-mision .titulo-mision {
-    font-family: "Roboto", sans-serif; }
-  .titulo-mision .parrafo-mision {
-    font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif; }
+
+/*parrafo de mision*/
+.parrafo-mision {
+  font-family: "Roboto", sans-serif; }
 
 /*cierre del home*/
+/*pagina de nosotros*/
+.row.cajas {
+  margin-top: 5%; }
+  .row.cajas .caja-1 {
+    background-color: moccasin;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #bebebe; }
+  .row.cajas .caja-2 {
+    background-color: moccasin;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #bebebe; }
+
 /*pagina de servicios*/
 .icono {
   width: 80px;

@@ -8,6 +8,8 @@ $texto-centrado:center;
 $fuentedetitulos:'Roboto', sans-serif;
 /*tipo de fuente para parrafos*/
 $fuentedeparrafos:'Roboto', sans-serif;
+/*colordecajas - pagina nosotros*/
+$colordecajas:moccasin;
 
 
 
@@ -67,11 +69,7 @@ p.parrafo-servicios{
 }
 }
 
-/*titulo de mision*/
-.titulo-mision{
-    font-family:$fuentedetitulos ;
-    font-weight: 600;
-    /*subtitulos de mision*/
+/*titulo de nuestros principios y valores - nuestra mision*/
     .titulo-mision{
         font-family:$fuentedetitulos
     }
@@ -79,8 +77,35 @@ p.parrafo-servicios{
     .parrafo-mision{
         font-family:$fuentedeparrafos; 
     }
-}
+
 /*cierre del home*/
+
+/*pagina de nosotros*/
+.row.cajas {
+    margin-top: 5%;
+    .caja-1{
+        background-color:$colordecajas;
+        border-radius: 20px;
+        box-shadow:  10px 10px 30px #bebebe;
+        }
+        .caja-2{
+            background-color:$colordecajas;
+            border-radius: 20px;
+            box-shadow:  10px 10px 30px #bebebe;
+                      
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*pagina de servicios*/
 .icono{
