@@ -4,7 +4,8 @@
 /*tipo de fuente para titulos*/
 /*tipo de fuente para parrafos*/
 /*colordecajas - pagina nosotros*/
-/*Home*/
+/*color de asterisco de formulario*/
+/*Home de index*/
 /*menu*/
 .menu {
   background-color: #f3e1aa;
@@ -166,7 +167,7 @@ h1.titulo-servicios {
   margin-top: 5%;
   margin-left: 29%; }
 
-/*Pagina trabajar index*/
+/*Pagina trabajar html*/
 .titulo-campo {
   font-weight: 800;
   font-family: "Roboto", sans-serif; }

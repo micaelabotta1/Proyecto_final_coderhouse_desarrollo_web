@@ -10,10 +10,12 @@ $fuentedetitulos:'Roboto', sans-serif;
 $fuentedeparrafos:'Roboto', sans-serif;
 /*colordecajas - pagina nosotros*/
 $colordecajas:moccasin;
+/*color de asterisco de formulario*/
+$colorasterisco: red;
 
 
 
-/*Home*/
+/*Home de index*/
 /*menu*/
 .menu{
     background-color:$color-menu-fondo;
@@ -197,11 +199,11 @@ p.parrafo-servicios{
       margin-left: 29%;
   }
   
-  /*Pagina trabajar index*/
+  /*Pagina trabajar html*/
   .titulo-campo{
       font-weight: 800;
       font-family:$fuentedetitulos ;
   }
   .signo-asterisco{
-      color: red;
+      color: $colorasterisco;
   }
