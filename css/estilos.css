@@ -96,7 +96,7 @@ h1.titulo-servicios {
   width: 100%;
   color: #292929;
   font-size: 18px;
-  background-color: #E9E9E9;
+  background-color: #eae39e;
   border: 1px solid #E9E9E9;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -157,3 +157,7 @@ h1.titulo-servicios {
   color: white;
   width: 150px;
   margin-top: 5%; }
+
+.caja-cv {
+  background-color: #eae39e;
+  border: 3px double #0e0d0d; }
