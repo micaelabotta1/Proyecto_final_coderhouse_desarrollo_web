@@ -149,3 +149,10 @@ h1.titulo-servicios {
 .servicios {
   margin-top: 10%;
   margin-left: 7%; }
+
+/*pagina de trabajar html*/
+.boton {
+  border-radius: 30px;
+  background: black;
+  color: white;
+  margin-left: 5%; }
