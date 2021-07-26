@@ -106,7 +106,7 @@ p.parrafo-servicios{
     margin: 0 0 20px 0;
     align-items: center;
 }
-/*formulario*/
+/*formulario de seccion contacto*/
 .container {
     width: 50%;
     margin: 0 auto;
@@ -137,7 +137,7 @@ p.parrafo-servicios{
     width: 100%;
     color: #292929;
     font-size: 18px;
-    background-color: #E9E9E9;
+    background-color: #eae39e;
     border: 1px solid #E9E9E9;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -157,7 +157,7 @@ p.parrafo-servicios{
     width: 100%;
     font-size: 18px;
     border-radius: 4px;
-    color: #fff;
+    color:black;
     height: 40px;
     opacity: .8;
     margin-bottom: 20px;
@@ -173,22 +173,36 @@ p.parrafo-servicios{
   .form-contact-button:hover {
     opacity: 1;
   }
+  /*cierre de formulario de contacto*/
 
-  /*pagina servicios*/
+  
+  /*Pagina servicios - caja que contiene cada uno de los servicios*/
   .servicios{
       margin-top: 10%;
       margin-left: 7%;
   }
 
   /*pagina de trabajar html*/
+  /*recuadro de la carja del archivo cv*/
+  .caja-cv{
+    background-color: #eae39e;
+    border: 3px double #0e0d0d;
+  }
+  /*boton de enviar*/
   .boton{
       border-radius: 30px;
       background: black;
       color: white;
-      width: 150px;
+      width: 50%;
       margin-top: 5%;
+      margin-left: 29%;
   }
-  .caja-cv{
-    background-color: #eae39e;
-    border: 3px double #0e0d0d;
+  
+  /*Pagina trabajar index*/
+  .titulo-campo{
+      font-weight: 800;
+      font-family:$fuentedetitulos ;
+  }
+  .signo-asterisco{
+      color: red;
   }
