@@ -5,7 +5,12 @@
 /*tipo de fuente para parrafos*/
 /*colordecajas - pagina nosotros*/
 /*color de asterisco de formulario*/
+/*color de fondo de sitio web*/
 /*Home de index*/
+/*Color de fondo de sitio web*/
+.color-fondo {
+  background-color: #FCF7BA; }
+
 /*menu*/
 .menu {
   background-color: #f3e1aa;
@@ -76,13 +81,13 @@ h1.titulo-servicios {
 .row.cajas {
   margin-top: 5%; }
   .row.cajas .caja-1 {
-    background-color: moccasin;
+    background-color: #c5d2c7;
     border-radius: 20px;
-    box-shadow: 10px 10px 30px #bebebe; }
+    box-shadow: 10px 10px 30px #0f0f0f; }
   .row.cajas .caja-2 {
-    background-color: moccasin;
+    background-color: #c5d2c7;
     border-radius: 20px;
-    box-shadow: 10px 10px 30px #bebebe; }
+    box-shadow: 10px 10px 30px #0f0f0f; }
 
 /*pagina de servicios - iconos de servicios*/
 .icono {
@@ -195,8 +200,10 @@ h1.titulo-servicios {
   height: 542px; }
 
 @media screen and (min-width: 360px) {
+  /*iconos*/
   .servicios {
     margin-top: 10%;
     text-align: center; }
+  /*footer de servicios*/
   .pie-pagina {
     margin-top: 29%; } }
