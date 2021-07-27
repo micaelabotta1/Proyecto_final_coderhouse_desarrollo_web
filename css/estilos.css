@@ -166,6 +166,14 @@ h1.titulo-servicios {
   margin-top: 10%;
   margin-left: 7%; }
 
+/*titulo de novedades - pagina servicios*/
+.titulo-novedades {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  /*parrafo de novedades*/ }
+  .titulo-novedades .parrafo-novedades {
+    font-family: "Roboto", sans-serif; }
+
 /*pagina de trabajar html*/
 /*recuadro de la carja del archivo cv*/
 .caja-cv {
@@ -196,8 +204,7 @@ h1.titulo-servicios {
 
 /*Pagina de servicios html*/
 .caja-servicios {
-  width: 100%;
-  height: 542px; }
+  width: 100%; }
 
 @media screen and (min-width: 360px) {
   /*iconos*/
