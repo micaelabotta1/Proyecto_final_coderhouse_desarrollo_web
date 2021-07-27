@@ -217,4 +217,7 @@ h1.titulo-servicios {
     text-align: center; }
   /*footer de servicios*/
   .pie-pagina {
-    margin-top: 29%; } }
+    margin-top: 29%; }
+  /*pagina servicios - titulo novedades*/
+  .titulo-novedades {
+    margin-left: 5%; } }

@@ -200,6 +200,7 @@ h1.titulo-servicios {
     .titulo-novedades{
     font-family:$fuentedetitulos ;
     font-weight: 800;
+   
     /*parrafo de novedades*/
     .parrafo-novedades{
         font-family: $fuentedeparrafos;
@@ -257,5 +258,9 @@ h1.titulo-servicios {
     /*footer de servicios*/
     .pie-pagina{
         margin-top: 29%;
+    }
+    /*pagina servicios - titulo novedades*/
+    .titulo-novedades{
+        margin-left: 5%;
     }
 }
