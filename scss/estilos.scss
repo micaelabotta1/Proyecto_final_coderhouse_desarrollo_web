@@ -24,6 +24,17 @@ $colorasterisco: red;
         color:$color-titulo-menu;
     }
 }
+/*titulo de cards del home*/
+.titulo-card{
+    font-family: $fuentedetitulos;
+    font-weight: 800;
+    /*parrafo de cards*/
+    .card-parrafo{
+    font-family: $fuentedeparrafos;
+    }
+        
+    }
+
 /*titulo de nuestros servicios*/
 .titulo-servicios{
     text-align:$texto-centrado;
@@ -39,6 +50,7 @@ p.parrafo_1{
 p.parrafo_2{
     text-align:$texto-centrado;
     margin-top:4%;
+    font-size: 20px;
     font-family:$fuentedeparrafos;
 }
 /*titulo de nuestros servicios*/
@@ -207,3 +219,17 @@ p.parrafo-servicios{
   .signo-asterisco{
       color: $colorasterisco;
   }
+
+  /*cierre de pagina trabajar html*/
+
+
+
+
+  /*MEDIA QUERIES*/
+  @media screen and(max-width:360px){
+    .caja-2 {
+        margin-top: 5%;
+    }
+  }
+      
+  

@@ -13,6 +13,14 @@
   .menu .titulo-color {
     color: black; }
 
+/*titulo de cards del home*/
+.titulo-card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  /*parrafo de cards*/ }
+  .titulo-card .card-parrafo {
+    font-family: "Roboto", sans-serif; }
+
 /*titulo de nuestros servicios*/
 .titulo-servicios {
   text-align: center; }
@@ -28,6 +36,7 @@ p.parrafo_1 {
 p.parrafo_2 {
   text-align: center;
   margin-top: 4%;
+  font-size: 20px;
   font-family: "Roboto", sans-serif; }
 
 /*titulo de nuestros servicios*/
@@ -174,3 +183,9 @@ h1.titulo-servicios {
 
 .signo-asterisco {
   color: red; }
+
+/*cierre de pagina trabajar html*/
+/*MEDIA QUERIES*/
+@media screen and (max-width: 360px) {
+  .caja-2 {
+    margin-top: 5%; } }
