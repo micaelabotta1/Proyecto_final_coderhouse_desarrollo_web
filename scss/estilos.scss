@@ -1,235 +1,237 @@
 /*color de fondo del menu*/
-$color-menu-fondo:#f3e1aa;
+$color-menu-fondo: #f3e1aa;
 /*color de letra del titulo del menu*/
-$color-titulo-menu:black;
+$color-titulo-menu: black;
 /*textos centrados de la pagina*/
-$texto-centrado:center;
+$texto-centrado: center;
 /*tipo de fuente para titulos*/
-$fuentedetitulos:'Roboto', sans-serif;
+$fuentedetitulos: "Roboto", sans-serif;
 /*tipo de fuente para parrafos*/
-$fuentedeparrafos:'Roboto', sans-serif;
+$fuentedeparrafos: "Roboto", sans-serif;
 /*colordecajas - pagina nosotros*/
-$colordecajas:moccasin;
+$colordecajas: moccasin;
 /*color de asterisco de formulario*/
 $colorasterisco: red;
 
-
-
 /*Home de index*/
 /*menu*/
-.menu{
-    background-color:$color-menu-fondo;
-/*titulo del menu*/
-    .titulo-color{
-        color:$color-titulo-menu;
-    }
+.menu {
+  background-color: $color-menu-fondo;
+  /*titulo del menu*/
+  .titulo-color {
+    color: $color-titulo-menu;
+  }
 }
 /*titulo de cards del home*/
-.titulo-card{
-    font-family: $fuentedetitulos;
-    font-weight: 800;
-    /*parrafo de cards*/
-    .card-parrafo{
+.titulo-card {
+  font-family: $fuentedetitulos;
+  font-weight: 800;
+  /*parrafo de cards*/
+  .card-parrafo {
     font-family: $fuentedeparrafos;
-    }
-        
-    }
+  }
+}
 
 /*titulo de nuestros servicios*/
-.titulo-servicios{
-    text-align:$texto-centrado;
+.titulo-servicios {
+  text-align: $texto-centrado;
 }
 /*primer parrafo debajo del slider*/
-p.parrafo_1{
-    text-align:$texto-centrado;
-    font-weight: 800;
-    margin-top:4%;
-    font-family:$fuentedeparrafos;
+p.parrafo_1 {
+  text-align: $texto-centrado;
+  font-weight: 800;
+  margin-top: 4%;
+  font-family: $fuentedeparrafos;
 }
 /*segundo parrafo debajo del slider*/
-p.parrafo_2{
-    text-align:$texto-centrado;
-    margin-top:4%;
-    font-size: 20px;
-    font-family:$fuentedeparrafos;
+p.parrafo_2 {
+  text-align: $texto-centrado;
+  margin-top: 4%;
+  font-size: 20px;
+  font-family: $fuentedeparrafos;
 }
 /*titulo de nuestros servicios*/
 h1.titulo-servicios {
+  margin-top: 4%;
+  font-family: $fuentedetitulos;
+  /*parrafo de nuestros servicios*/
+  p.parrafo-servicios {
     margin-top: 4%;
-    font-family:$fuentedetitulos;
-    /*parrafo de nuestros servicios*/
-p.parrafo-servicios{
-    margin-top:4%; 
-    font-family:$fuentedeparrafos;
-}
+    font-family: $fuentedeparrafos;
+  }
 }
 
 /*titulo card - imagenes - index*/
-.titulo-card{
-    font-family:$fuentedetitulos ;
+.titulo-card {
+  font-family: $fuentedetitulos;
 }
-.card-parrafo{
-    font-family: $fuentedeparrafos;
+.card-parrafo {
+  font-family: $fuentedeparrafos;
 }
-
 
 /*Pagina quienes somos*/
-.titulo-quienes-somos{
-    font-family:$fuentedetitulos ;
-    font-weight: 800;
-    /*parrafo de quienes somos*/
-.parrafo-quienes-somos{
+.titulo-quienes-somos {
+  font-family: $fuentedetitulos;
+  font-weight: 800;
+  /*parrafo de quienes somos*/
+  .parrafo-quienes-somos {
     font-family: $fuentedeparrafos;
-}
+  }
 }
 
 /*titulo de nuestros principios y valores - nuestra mision*/
-    .titulo-mision{
-        font-family:$fuentedetitulos
-    }
-    /*parrafo de mision*/
-    .parrafo-mision{
-        font-family:$fuentedeparrafos; 
-    }
+.titulo-mision {
+  font-family: $fuentedetitulos;
+}
+/*parrafo de mision*/
+.parrafo-mision {
+  font-family: $fuentedeparrafos;
+}
 
 /*cierre del home*/
 
 /*pagina de nosotros*/
 .row.cajas {
-    margin-top: 5%;
-    .caja-1{
-        background-color:$colordecajas;
-        border-radius: 20px;
-        box-shadow:  10px 10px 30px #bebebe;
-        }
-        .caja-2{
-            background-color:$colordecajas;
-            border-radius: 20px;
-            box-shadow:  10px 10px 30px #bebebe;
-                      
-        }
+  margin-top: 5%;
+  .caja-1 {
+    background-color: $colordecajas;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #bebebe;
+  }
+  .caja-2 {
+    background-color: $colordecajas;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #bebebe;
+  }
 }
 
-
-/*pagina de servicios*/
-.icono{
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 0 20px 0;
-    align-items: center;
+/*pagina de servicios - iconos de servicios*/
+.icono {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 0 20px 0;
+  align-items: center;
 }
 /*formulario de seccion contacto*/
 .container {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  .form-contact {
-    width: 100%;
-    font-family: "Arial", Times, serif;
-  }
-  
-  .form-contact-input {
-    width: 100%;
-    color: #292929;
-    font-size: 18px;
-    background-color: #eae39e;
-    border: 1px solid #E9E9E9;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    height: 40px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    text-indent: 20px;
-  }
-  
-  .form-contact-textarea {
-    width: 100%;
-    color: #292929;
-    font-size: 18px;
-    background-color: #eae39e;
-    border: 1px solid #E9E9E9;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    height: 200px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    text-indent: 20px;
-    padding-top: 16px;
-    padding-left: 0;
-    padding-right: 0;
-    font-family: "Arial", Times, serif;
-  }
-  
-  .form-contact-button {
-    width: 100%;
-    font-size: 18px;
-    border-radius: 4px;
-    color:black;
-    height: 40px;
-    opacity: .8;
-    margin-bottom: 20px;
-    cursor: pointer;
-    background: #e8d67c;
-    display: block;
-    border: none;
-    border-bottom: 1px solid #500707;
-    border-right: 1px solid #500707;
-    transition: 1s;
-  }
-  
-  .form-contact-button:hover {
-    opacity: 1;
-  }
-  /*cierre de formulario de contacto*/
+  width: 50%;
+  margin: 0 auto;
+}
 
-  /*Pagina servicios - caja que contiene cada uno de los servicios*/
-  .servicios{
-      margin-top: 10%;
-      margin-left: 7%;
-  }
+.form-contact {
+  width: 100%;
+  font-family: "Arial", Times, serif;
+}
 
-  /*pagina de trabajar html*/
-  /*recuadro de la carja del archivo cv*/
-  .caja-cv{
-    background-color: #eae39e;
-    border: 3px double #0e0d0d;
-  }
-  /*boton de enviar*/
-  .boton{
-      border-radius: 30px;
-      background: black;
-      color: white;
-      width: 50%;
-      margin-top: 5%;
-      margin-left: 29%;
-  }
-  
-  /*Pagina trabajar html*/
-  .titulo-campo{
-      font-weight: 800;
-      font-family:$fuentedetitulos ;
-  }
-  .signo-asterisco{
-      color: $colorasterisco;
-  }
+.form-contact-input {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #eae39e;
+  border: 1px solid #e9e9e9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+}
 
-  /*cierre de pagina trabajar html*/
+.form-contact-textarea {
+  width: 100%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #eae39e;
+  border: 1px solid #e9e9e9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Arial", Times, serif;
+}
 
+.form-contact-button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: black;
+  height: 40px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: #e8d67c;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #500707;
+  border-right: 1px solid #500707;
+  transition: 1s;
+}
 
+.form-contact-button:hover {
+  opacity: 1;
+}
+/*cierre de formulario de contacto*/
 
+/*Pagina servicios - caja que contiene cada uno de los servicios*/
+.servicios {
+  margin-top: 10%;
+  margin-left: 7%;
+}
 
-  /*MEDIA QUERIES*/
-  @media screen and(max-width:360px){
-    .caja-2 {
-        margin-top: 5%;
+/*pagina de trabajar html*/
+/*recuadro de la carja del archivo cv*/
+.caja-cv {
+  background-color: #eae39e;
+  border: 3px double #0e0d0d;
+}
+/*boton de enviar*/
+.boton {
+  border-radius: 30px;
+  background: black;
+  color: white;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 29%;
+}
+
+/*Pagina trabajar html*/
+.titulo-campo {
+  font-weight: 800;
+  font-family: $fuentedetitulos;
+}
+.signo-asterisco {
+  color: $colorasterisco;
+}
+
+/*cierre de pagina trabajar html*/
+
+/*footer*/
+.pie-pagina {
+  height: 30px;
+}
+/*Pagina de servicios html*/
+.caja-servicios {
+  width: 100%;
+  height: 542px;
+}
+
+@media screen and (min-width: 360px) {
+    .servicios{
+        margin-top: 10%;
+        text-align: center;
     }
-  }
-      
-  
+    .pie-pagina{
+        margin-top: 29%;
+    }
+}
