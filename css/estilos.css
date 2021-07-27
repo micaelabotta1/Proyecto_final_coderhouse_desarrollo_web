@@ -206,6 +206,10 @@ h1.titulo-servicios {
 .caja-servicios {
   width: 100%; }
 
+.titulo-soluciones-contables {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800; }
+
 @media screen and (min-width: 360px) {
   /*iconos*/
   .servicios {
