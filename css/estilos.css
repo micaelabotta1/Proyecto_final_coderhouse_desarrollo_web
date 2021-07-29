@@ -14,17 +14,18 @@
 /*menu*/
 .menu {
   background-color: #f3e1aa;
-  /*titulo del menu*/ }
+  /*titulo del menu*/
+  /*titulo de cards del home*/ }
   .menu .titulo-color {
     color: black; }
-
-/*titulo de cards del home*/
-.titulo-card {
-  font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  /*parrafo de cards*/ }
-  .titulo-card .card-parrafo {
+  .menu .lista {
     font-family: "Roboto", sans-serif; }
+  .menu .titulo-card {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    /*parrafo de cards*/ }
+    .menu .titulo-card .card-parrafo {
+      font-family: "Roboto", sans-serif; }
 
 /*titulo de nuestros servicios*/
 .titulo-servicios {
@@ -75,7 +76,8 @@ h1.titulo-servicios {
 
 /*parrafo de mision*/
 .parrafo-mision {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  margin-left: 6%; }
 
 /*cierre del home*/
 /*pagina de nosotros*/
@@ -225,6 +227,3 @@ h1.titulo-servicios {
   /*pagina servicios - titulo novedades*/
   .titulo-novedades {
     margin-left: 5%; } }
-
-.lista {
-  font-family: "Roboto", sans-serif; }
