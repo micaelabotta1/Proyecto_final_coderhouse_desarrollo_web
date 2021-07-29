@@ -226,6 +226,5 @@ h1.titulo-servicios {
   .titulo-novedades {
     margin-left: 5%; } }
 
-.lista:hover {
-  background-color: red;
-  border-radius: 2px solid; }
+.lista {
+  font-family: "Roboto", sans-serif; }
